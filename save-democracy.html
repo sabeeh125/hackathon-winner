@@ -9,28 +9,35 @@
     <link rel="stylesheet" href="css/base.css">
 
 </head>
-<body>
+<body class="container-fluid row justify-content-center">
 
-<h1>Save Democracy!</h1>
+<div class="row justify-content-center">
+    <div class="col">
 
-<p>[text here about how democracy is failing, blah blah] We need your help!</p>
 
-<form class="d-inline-block w-50" method="post" action="">
-    <div class="form-group">
-        <label for"email">email address</label>
-        <input type="text" id="email" name="email" class="form-control">
+    <h1>Save Democracy!</h1>
+
+    <p class="text-light-gray">[text here about how democracy is failing, blah blah] We need your help!</p>
+
+    <form method="post" action="">
+        <div class="form-group">
+            <label for="email" class="text-light-gray font-weight-light mb-0">email address</label>
+            <input type="text" id="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password" class="text-light-gray font-weight-light mb-0">password</label>
+            <input type="text" id="password" name="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password-confirm" class="text-light-gray font-weight-light mb-0">re-enter password</label>
+            <input type="text" id="password-confirm" name="password-confirm" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-block btn-primary mt-4">Join the fight!</button>
+    </form>
+
+
     </div>
-    <div class="form-group">
-        <label for"password">password</label>
-        <input type="text" id="password" name="password" class="form-control">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-
-
-
-
+</div>
 
 </body>
 </html>

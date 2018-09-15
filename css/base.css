@@ -1,4 +1,12 @@
 body {
-    /* background-color: #264348;
-    color: white; */
+    background-color: #1f2d3d;
+    color: white;
+}
+
+.text-light-gray {
+    color: #C0CCDA;
+}
+
+.text-gray {
+    color: #8492A6;
 }
