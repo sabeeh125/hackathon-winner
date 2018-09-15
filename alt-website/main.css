@@ -1,0 +1,24 @@
+h1{
+	color: White;
+	font: Montserrat;
+
+}
+
+body{    
+/*  height: ;
+  width: 1000;*/
+  background-color: black;
+  background-image: "./starry background.jpg";
+  background-repeat: no-repeat;
+  background-size: 850px 750px;
+}
+
+.boxed{
+	border: 1px solid white;
+	padding: 5px;
+	height: 750px;
+	width: 35%;
+	display: inline-block;
+	float: right;
+	position: ;
+}
